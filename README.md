@@ -8,15 +8,24 @@ I think this makes a poem because it could have a deeper meaning behind it. It d
 Sample outputs:
 1.
 long section.
+
 wooden-faced kind
+
 Nobody would miss her
+
 in a social way.
+
 criminal. mountain
+
 much serenity
 
 2.
 unreadable put
+
 afraid knowledge
+
 He is a mere believer.
+
 secret restraint
+
 entertaining memory

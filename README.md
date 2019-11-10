@@ -30,6 +30,20 @@ secret restraint
 
 entertaining memory
 
+GLITCH ART
+
+For this project, I decided to make it nature-themed because I enjoy looking at the world that surrounds me. 
+I think taking pictures of the environment is very inspiring and other people should see and appreciate nature 
+since climate change is drastically increasing. I also think that “glitching” the environment is pretty 
+cool since it’s not natural for it to happen.
+
+I used three methods we discussed in class—databending where I used different softwares (Audacity, TextEdit, 
+and Hex Fiend) to mess with the images; pixel sorting(pixelsort.py) and datamoshing(tomato.py) which are 
+both python scripts that I downloaded through GitHub. The pictures I used are from Unsplash and the 
+giphs are from GIPHY.
+
+I also posted it on my domain: http://systephanie.com/uncategorized/creative-coding-glitch-art/
+© 2019 GitHub, Inc.
 
 SCREENSAVER
 
@@ -45,3 +59,5 @@ because I had a really hard time figuring my code out.
 Link to dog screensaver: https://editor.p5js.org/ssy15/full/D30LpWKV5
 
 CLOCK
+
+I got my inspiration from Coding Train (https://www.youtube.com/watch?time_continue=224&v=E4RyStef-gY). I wanted my clock to look simple and minimalistic. When I think of minimalism, the first thing i think of is this Ted Talk(https://www.youtube.com/watch?v=GgBpyNsS-jU) about having less stuff = more happiness. It made me think about how we should focus more on the important things in our lives instead of wasting it on something else. Even though I’m not really good with managing time, I think the more we use it wisely, the more we can focus on  more meaningful things around us.  

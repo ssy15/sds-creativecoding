@@ -1,3 +1,84 @@
+let counter = 0;
+let husky_x = -400;
+let pug_x = 1970;
+let shib_x = -400;
+let dog_x = 1970;
+let alldogs_x = -1100;
+
+function preload() {
+  huskyImg = createImg("husky.gif");
+  pugImg = createImg("pug.gif");
+  shibImg = createImg("shib.gif");
+  dogImg = createImg("dog.gif");
+  alldogsImg = createImg("alldogs.gif");
+
+  bgImg = loadImage("grass.png");
+  
+  huskyImg.position(-500,-500);
+  pugImg.position(-500,-500);
+  shibImg.position(-500,-500);
+  dogImg.position(-500,-500);
+  alldogsImg.position(-500,-500);
+}
+
+function setup() {
+
+  createCanvas(1920, 1080);
+  
+
+}
+
+function draw() {
+  background(bgImg);
+
+  
+  // gif_createImg.position(0,500)
+  
+  if (counter > 2000){
+    counter = 0;
+    husky_x = -400;
+    pug_x = 1970;
+    shib_x = -400;
+    dog_x = 1970;
+    alldogs_x = -400;
+  }
+  
+   if (counter < 500){
+    husky_x += 6;
+    huskyImg.position( husky_x, 200);
+    pugImg.position(-500,-500);
+  }
+  
+  if (counter > 500){
+    pug_x += -6;
+    huskyImg.position(-500,-500);
+    pugImg.position(pug_x, -75);
+  }
+  
+  if (counter < 500){
+    shib_x += 6;
+    pugImg.position(-500,-500);
+    shibImg.position(shib_x, 700);
+  }
+
+   if (counter > 500){
+    dog_x += -6;
+    shibImg.position(-500,-500);
+    dogImg.position(dog_x, 700);  
+  }
+  if (counter > 1000){
+    alldogs_x += 5;
+    dogImg.position(-500,-500);
+    alldogsImg.position(alldogs_x, 400);
+  }
+  
+  counter += 1;
+}
+
+//SOURCES
+//gifs: https://giphy.com/stickers/dog-kTHH8wDg1Cmcw, https://gfycat.com/qualifiedblindafricanparadiseflycatcher, https://www.pinterest.com/pin/742179213565782615/?lp=true, https://giphy.com/stickers/5000-poly-xWCGWtWOpx7gyGWYgg, https://giphy.com/stickers/adorable-husky-YtPdK4YyUzBhC
+//background: https://www.backgrounddownload.com/pixel-grass-background-1-2/
+//i reversed 2 gifs: https://ezgif.com/reverse
 from google.colab import files
 import random
 

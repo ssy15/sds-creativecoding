@@ -1,7 +1,5 @@
-For my NaNoGenMo project, I used A Christmas Carol by Charles Dickens for my text. I got the text from Project Gutenberg (https://www.gutenberg.org/) The reason why I chose this because it’s almost that time of the year and Christmas is my favorite holiday. I created this novel by using a markov chain. 
+For my NaNoGenMo project, I used A Christmas Carol by Charles Dickens for my text. I got the text from Project Gutenberg (https://www.gutenberg.org/) The reason why I chose this because it’s almost that time of the year and Christmas is my favorite holiday. I thought this was interesting because the outcome is very unique but even after just reading the first couple of sentences in both examples, it still traces back to the original theme of the novel. 
 
-A Markov chain is a
-
-
+I created this novel by using a markov chain. 
 Link: https://github.com/jsvine/markovify
-.....................
+

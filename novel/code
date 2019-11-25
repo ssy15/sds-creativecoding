@@ -7,33 +7,25 @@
 import markovify
 from weasyprint import HTML
 novel = ''
+
 with open("christmas.txt") as f:
     text = f.read()
 
 text_model = markovify.Text(text)
 
-for i in range(50000):
-    novel += str(text_model.make_sentence()) + "<br>\n"
-
-# word_count = len(novel.split(" "))
-# print("Word count:" + str(word_count))
-
+for i in range(5000):
+    novel += str(text_model.make_sentence()) + " "
 
 html_template = f"""
 <html>
   <head>
-  <title>Christmas time!!</title>
-  <style>
-    body {{
-      font-family: Times New Roman;
-    }}
-  </style>
+  <title>ITS CHRISTMAS!!</title>
   </head>
-  <body><div>
-  {novel}</div>
+  <body>
+  {novel}
   </body>
 </html>
 """
 
 # Finally, this line saves that template as a PDF using the HTML module of WeasyPrint
-HTML(string=html_template).write_pdf("christmas_novel.pdf")
+HTML(string=html_template).write_pdf("christmascarol_novel.pdf")
